@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header a {
+  background: rgba(235, 188, 204, 0.4);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #be6a83;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h2 {
+  color: #666;
+  font-weight: 500;
+}
+
+/* Main Container */
+main {
+  max-width: 800px;
+  margin: auto;
+  background: rgba(235, 188, 204, 0.4);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Perfil */
+.perfil {
+display: flex;
+position: center;
+align-items: center;
+
+
+}
+
+.perfil img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #eee;
+}
+.perfil h1 {
+  margin-left: 15px;
+  font-size: 32px;
+  color: #000000;
+}
+
+/* Quem Somos */
+.quem-somos {
+  margin-top: 20px;
+}
+
+.quem-somos h3 {
+  font-size: 20 px;
+  font-weight: bold;
+}
+
+.quem-somos p {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #f6d6e0;
+  font-size: 14px;
+}
+
+/* Carrossel */
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+/* cards dos produtos*/
+.glider-produtos .card {
+  flex: 0 0 auto;
+  width: 210px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+  margin: 0 10px 0 10px;
+  width: 120px;
+}
+
+.glider-produtos .card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.card .info {
+  padding: 10px;
+}
+
+.card .info h4 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.card .info p {
+  margin: 5px 0 0;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Comentários */
+.comentario {
+  background: #fff3c4;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  flex: 0 0 auto;
+  width: 300px;
+}
+
+.comentario strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  background: #e79ab2;
+  text-align: center;
+  color: #fff;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+footer svg {
+  width: 40px;
+  height: 40px;
+}
+
+.arrows button {
+  background: #fff;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
